@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Retrato institucional estilizado">
-  <rect width="900" height="1200" fill="#0d213f"/>
-  <circle cx="450" cy="320" r="115" fill="#d9b28d"/>
-  <rect x="250" y="460" width="400" height="520" rx="60" fill="#142f55"/>
-  <rect x="425" y="460" width="50" height="520" fill="#111a28"/>
-  <text x="450" y="1030" fill="#f2c572" text-anchor="middle" font-family="Georgia, serif" font-size="48">Atendimento consultivo</text>
-  <text x="450" y="1080" fill="#ffffff" text-anchor="middle" font-family="Arial" font-size="36">para empresas e empreendedores</text>
-</svg>

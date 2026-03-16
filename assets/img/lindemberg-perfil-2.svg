@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Retrato profissional alternativo estilizado">
-  <rect width="900" height="1200" fill="#011632"/>
-  <rect x="210" y="430" width="480" height="520" rx="30" fill="#1a2f4f"/>
-  <circle cx="450" cy="300" r="120" fill="#d9b28d"/>
-  <polygon points="450,470 520,900 380,900" fill="#0b1220"/>
-  <text x="450" y="1035" fill="#f2c572" text-anchor="middle" font-family="Georgia, serif" font-size="52">Contador</text>
-  <text x="450" y="1090" fill="#ffffff" text-anchor="middle" font-family="Arial" font-size="40" font-weight="700">Lindemberg França</text>
-</svg>
