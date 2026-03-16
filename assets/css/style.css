@@ -89,19 +89,18 @@ textarea {
   top: 0;
   z-index: 1000;
   background:
-    linear-gradient(180deg, #031635, #031635),
-    linear-gradient(90deg, rgba(255, 215, 115, 0.06), transparent 18%, transparent 82%, rgba(255, 255, 255, 0.04));
+    linear-gradient(180deg, #03122b, #041732);
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  box-shadow: 0 10px 24px rgba(1, 17, 38, 0.18);
+  box-shadow: 0 10px 24px rgba(1, 17, 38, 0.16);
 }
 
 .nav-wrap {
   position: relative;
-  min-height: 88px;
+  min-height: 94px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-wrap::after {
@@ -118,8 +117,9 @@ textarea {
 }
 
 .logo img {
-  height: clamp(52px, 8vw, 74px);
+  height: clamp(40px, 4.6vw, 58px);
   width: auto;
+  max-width: min(100%, 360px);
   object-fit: contain;
 }
 
@@ -163,16 +163,17 @@ textarea {
 
 .nav-links a {
   display: block;
-  padding: 0.8rem 0.95rem;
-  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
   color: #e8edf7;
   font-weight: 700;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-  background: rgba(242, 197, 114, 0.18);
-  color: var(--gold-soft);
+  background: rgba(242, 197, 114, 0.14);
+  color: #ffe4a4;
 }
 
 .hero {
@@ -513,26 +514,40 @@ textarea {
 }
 
 .site-footer {
-  padding: 2.75rem 0;
+  padding: 3rem 0 2.4rem;
   color: #d7e1ee;
   background:
-    linear-gradient(135deg, rgba(8, 12, 89, 0.4), transparent 35%),
-    var(--navy-2);
+    linear-gradient(135deg, rgba(8, 12, 89, 0.3), transparent 35%),
+    linear-gradient(180deg, #041227, #02101f);
 }
 
 .site-footer h3 {
   margin-top: 0;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.85rem;
   font-family: var(--font-heading);
   color: var(--white);
 }
 
 .site-footer p {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.55rem;
+  color: rgba(215, 225, 238, 0.88);
+}
+
+.footer-brand {
+  max-width: 26rem;
+}
+
+.footer-brand p {
+  max-width: 30ch;
+}
+
+.footer-block {
+  padding-top: 0.35rem;
 }
 
 .footer-logo {
-  max-width: min(100%, 220px);
+  width: min(100%, 320px);
+  height: auto;
   margin-bottom: 1rem;
 }
 
@@ -541,7 +556,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: 0.8rem 0 0;
+  margin: 0.9rem 0 0;
   padding: 0;
 }
 
@@ -591,6 +606,14 @@ textarea {
 
   .site-footer {
     text-align: center;
+  }
+
+  .footer-brand {
+    margin-inline: auto;
+  }
+
+  .footer-brand p {
+    margin-inline: auto;
   }
 
   .social-list {
@@ -653,8 +676,8 @@ textarea {
   }
 
   .footer-grid {
-    grid-template-columns: 1.2fr 0.9fr 0.7fr;
-    gap: 2rem;
+    grid-template-columns: 1.35fr 0.9fr 0.75fr;
+    gap: 2.25rem;
   }
 }
 
