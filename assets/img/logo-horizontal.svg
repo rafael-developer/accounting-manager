@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" role="img" aria-label="Lindemberg França Assessoria Contábil e Empresarial">
+  <rect width="640" height="180" fill="#011632"/>
+  <g transform="translate(22,20)">
+    <path d="M70 0L140 70L70 140L0 70Z" fill="#f2c572"/>
+    <rect x="27" y="25" width="16" height="90" fill="#011632"/>
+    <rect x="52" y="45" width="16" height="70" fill="#011632"/>
+    <rect x="77" y="63" width="16" height="52" fill="#011632"/>
+  </g>
+  <text x="180" y="78" font-family="Georgia, serif" font-size="48" fill="#f2c572" font-weight="700">LINDEMBERG FRANÇA</text>
+  <text x="180" y="128" font-family="Arial, sans-serif" font-size="34" fill="#ffffff" font-weight="600">ASSESSORIA CONTÁBIL E EMPRESARIAL</text>
+</svg>

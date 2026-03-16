@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-label="Guia de identidade visual Lindemberg França">
+  <rect width="1200" height="780" fill="#ebedf0"/>
+  <text x="600" y="100" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#011632" font-weight="700">LINDEMBERG FRANÇA</text>
+  <text x="600" y="155" text-anchor="middle" font-family="Arial" font-size="32" fill="#011632">Assessoria Contábil e Empresarial</text>
+  <rect x="120" y="220" width="420" height="210" fill="#011632" rx="12"/>
+  <rect x="660" y="220" width="420" height="210" fill="#ffffff" rx="12" stroke="#d2d8de"/>
+  <circle cx="220" cy="560" r="58" fill="#080c59"/>
+  <circle cx="360" cy="560" r="58" fill="#011632"/>
+  <circle cx="500" cy="560" r="58" fill="#011126"/>
+  <circle cx="640" cy="560" r="58" fill="#ffd773"/>
+  <circle cx="780" cy="560" r="58" fill="#f2c572"/>
+  <circle cx="920" cy="560" r="58" fill="#ffffff" stroke="#d2d8de"/>
+  <text x="600" y="690" text-anchor="middle" font-family="Arial" font-size="28" fill="#011632">Paleta principal: azul marinho + dourado</text>
+</svg>
